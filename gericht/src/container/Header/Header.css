@@ -1,0 +1,29 @@
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-img img{
+    width: 80%;
+}
+
+.custom__button {
+    transition: background-color 0.3s ease-in, color 0.3s ease-in, box-shadow 0.3s ease-in; 
+}
+.custom__button:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    box-shadow: 0 0 10px var(--color-golden), 
+                0 0 20px var(--color-golden),
+                0 0 30px var(--color-golden), 
+                0 0 40px var(--color-golden); 
+}
+
