@@ -1,0 +1,87 @@
+.reservation-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(12, 12, 12, 0.9); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.reservation-popup-container {
+    background-color: #ffffff; 
+    padding: 2rem;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 90%;
+    max-width: 400px; 
+    border-radius: 25px; 
+    font-size: 16px; 
+    animation: fastappear 1.2s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+}
+
+
+.reservation-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.reservation-popup-title h2 {
+    margin: 0; 
+    font-family: 'Cormorant Upright', serif; 
+    color: #0C0C0C; 
+}
+
+.reservation-popup__close {
+    cursor: pointer; 
+    color: #DCCA87; 
+}
+
+.reservation-popup-input {
+    display: flex;
+    flex-direction: column; 
+}
+
+.reservation-popup-input input {
+    padding: 0.75rem; 
+    margin: 0.5rem 0; 
+    border: 1px solid #545454; 
+    border-radius: 5px; 
+    font-size: 16px;
+}
+
+.reservation-popup-input input:focus {
+    border-color: #DCCA87; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(220, 202, 135, 0.5); 
+}
+
+.reservation-popup-button {
+    margin-left: 120px;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #DCCA87; 
+    color: #0C0C0C;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+
+.reservation-popup-button:hover {
+    background-color: #c1b870; 
+}
+
+.reservation-popup-confirmation {
+    margin-top: 1rem;
+    font-size: 14px; 
+    color: #0C0C0C; 
+    text-align: center; 
+}
