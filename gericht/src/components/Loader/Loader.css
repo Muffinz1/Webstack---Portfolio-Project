@@ -1,0 +1,45 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black);
+    z-index: 1000;
+  }
+  
+  .app__loader-logo {
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  }
+  
+
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #DCCA87; }
+  }
+  
+  .zoom-out {
+    animation: zoomFadeOut 2s forwards;
+  }
+  
+  @keyframes zoomFadeOut {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(2);
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .app__loader-logo img{
+      width: 30vh
+    }
+  }
