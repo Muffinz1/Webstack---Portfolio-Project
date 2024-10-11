@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.site__background {
+.app__bg {
   background: url('./assets/bg.png');
   background-position: center;
   background-size: cover;
@@ -16,7 +16,7 @@
   background-attachment: fixed;
 }
 
-.site__wrapper {
+.app__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +24,7 @@
   min-height: 100vh;
 }
 
-.site__wrapper_info {
+.app__wrapper_info {
   flex: 1;
   width: 100%;
   display: flex;
@@ -33,7 +33,7 @@
   flex-direction: column;
 }
 
-.site__wrapper_img {
+.app__wrapper_img {
   flex: 1;
   width: 100%;
   display: flex;
@@ -43,16 +43,16 @@
   margin-left: 2rem;
 }
 
-.site__wrapper_img-reverse {
+.app__wrapper_img-reverse {
   justify-content: flex-start;
   margin-right: 2rem;
 }
 
-.site__wrapper_img img {
+.app__wrapper_img img {
   width: 80%;
 }
 
-.custom__button_one {
+.custom__button {
   background-color: var(--color-crimson);
     color: var(--color-black);
     font-family: var(--font-base);
@@ -67,7 +67,7 @@
     cursor: pointer;
 }
 
-.p__corm {
+.p__cormorant {
   font-family: var(--font-base);
   color: var(--color-white);
   font-weight: 700;
@@ -78,7 +78,7 @@
   font-size: 23px;
 }
 
-.p__osans {
+.p__opensans {
   font-family: var(--font-alt);
   color: var(--color-white);
   font-weight: 400;
@@ -88,7 +88,7 @@
   font-size: 16px;
 }
 
-.headtext__corm {
+.headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-golden);
   font-size: 64px;
@@ -102,18 +102,18 @@
 }
 
 @media screen and (min-width: 2000px) {
-  .custom__button_one,
-  .p__corm {
+  .custom__button,
+  .p__cormorant {
     font-size: 37px;
     line-height: 67px;
   }
 
-  .p__osans {
+  .p__opensans {
     font-size: 30px;
     line-height: 50px;
   }
 
-  .headtext__corm {
+  .headtext__cormorant {
     font-size: 150px;
     line-height: 210px;
   }
@@ -124,19 +124,19 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .site__wrapper {
+  .app__wrapper {
     flex-direction: column;
   }
 
-  .site__wrapper_img {
+  .app__wrapper_img {
     margin: 5rem 0 0 0;
   }
 
-  .site__wrapper_img-reverse {
+  .app__wrapper_img-reverse {
     margin: 0 0 5rem 0;
   }
 
-  .site__wrapper_img img {
+  .app__wrapper_img img {
     width: 100%;
   }
 }
@@ -152,25 +152,25 @@
     padding: 4rem 2rem;
   }
   
-  .p__corm {
+  .p__cormorant {
     font-size: 21px;
   }
 
-  .p__osans {
+  .p__opensans {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .p__osans {
+  .p__opensans {
     font-size: 12px;
   }
 
-  .p__corm {
+  .p__cormorant {
     font-size: 19px;
   }
 
-  .headtext__corm {
+  .headtext__cormorant {
     font-size: 45px;
     line-height: 70px;
   }
