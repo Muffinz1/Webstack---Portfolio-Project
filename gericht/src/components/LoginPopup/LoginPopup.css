@@ -1,0 +1,113 @@
+.login-popup {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color: rgba(12, 12, 12, 0.9); 
+}
+
+.login-popup-container {
+    place-self: center;
+    width: max(23vw, 330px);
+    color: var(--color-white);
+    background-color: var(--color-black); 
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 35px; 
+    border-radius: 25px; 
+    font-size: 16px; 
+    animation: fastappear 1.2s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-golden); 
+    font-family: var(--font-base);
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.login-popup__close {
+    cursor: pointer;
+    color: var(--color-golden); 
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.login-popup__close:hover {
+    color: var(--color-crimson);
+}
+
+/* Input fields */
+.login-popup-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Input field styling */
+.login-popup-input input {
+    outline: none;
+    border: 1.5px solid var(--color-gray); 
+    padding: 10px;
+    border-radius: 8px; 
+    background-color: var(--color-black); 
+    color: var(--color-white); 
+    font-family: var(--font-alt);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-popup-input input:focus {
+    border-color: var(--color-golden); 
+}
+
+.login-popup-button {
+    background-color: var(--color-golden); 
+    color: var(--color-black); 
+    padding: 8px 15px; 
+    border: none;
+    border-radius: 6px; 
+    font-family: var(--font-alt);
+    font-size: 14px; 
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-popup-button:hover {
+    background-color: var(--color-crimson); 
+}
+@keyframes fastappear {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.login-popup-condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+
+.login-popup-condition input{
+    margin-top: 5px;
+}
+
+.login-popup p span{
+    color: var(--color-crimson);
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 9px;
+}
