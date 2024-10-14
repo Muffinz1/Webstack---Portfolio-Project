@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Header ,AboutUs} from './container';
-import {  Loader, OnlineReservations,Navbar } from './components';
+import { Header , AboutUs, SpecialMenu} from './container';
+import {  Loader, OnlineReservations,Navbar , MenuItem } from './components';
 import LoginPopup from './components/LoginPopup/LoginPopup';
 import './App.css';
 
@@ -19,6 +19,7 @@ const App = () => {
                 <div className='content'>
                     <Header />
                     <AboutUs/>
+                    <SpecialMenu/>
                 </div>
             </div>
         </>
