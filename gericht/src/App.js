@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Header } from './container';
+import { Header ,AboutUs} from './container';
 import {  Loader, OnlineReservations,Navbar } from './components';
 import LoginPopup from './components/LoginPopup/LoginPopup';
 import './App.css';
@@ -18,6 +18,7 @@ const App = () => {
                 <Navbar setShowLogin={setShowLogin} />
                 <div className='content'>
                     <Header />
+                    <AboutUs/>
                 </div>
             </div>
         </>
