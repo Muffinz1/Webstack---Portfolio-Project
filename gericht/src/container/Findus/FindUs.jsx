@@ -4,7 +4,7 @@ import { images} from '../../constants';
 const FindUs = () => (
   <div className='app__bg app__wrapper section__padding' id="contact">
     <div className="app__wrapper_info">
-      <SubHeading title='Contact'/>
+      <SubHeading title='Where to'/>
       <h1 className="headtext__cormorant app__typing" style={{marginBottom: '3rem' }}>Find Us</h1>
       <div className="app__wrapper-content">
         <p className="p__opensans">Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 75G</p>
