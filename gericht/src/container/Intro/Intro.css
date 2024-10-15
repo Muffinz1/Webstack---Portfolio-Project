@@ -1,0 +1,82 @@
+.app__video{
+    height: 100vh;
+    position: relative;
+}
+
+.app__video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app__video-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(12, 12, 12, 0.65);
+    transition: opacity 0.3s ease;
+}
+
+.app__video-overlay_circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid var(--color-golden); 
+    cursor: pointer;
+    overflow: hidden; 
+  }
+  
+ 
+  .app__video-overlay_circle::before {
+    content: '';
+    position: absolute;
+    bottom: -100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150%; 
+    height: 150%; 
+    background: rgba(221, 204, 153, 0.5); 
+    border-radius: 50%; 
+    transition: bottom 0.5s ease-in-out; 
+    opacity: 0; 
+  }
+  
+
+  .app__video-overlay_circle:hover::before {
+    bottom: 0; 
+    opacity: 1; 
+  }
+  
+
+  .app__video-overlay_circle::after {
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150%;
+    height: 150%;
+    background: rgba(255, 255, 255, 0.5); 
+    border-radius: 50%; 
+    animation: wave 3s infinite linear; 
+    transition: bottom 0.5s ease-in-out;
+    opacity: 0; 
+  }
+  
+ 
+  .app__video-overlay_circle:hover::after {
+    bottom: 0;
+    opacity: 0.3;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(-10%);
+    }
+    100% {
+      transform: translateX(-50%) translateY(0);
+    }
+  }
