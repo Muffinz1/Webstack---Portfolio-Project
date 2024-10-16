@@ -1,0 +1,44 @@
+.app__music-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    animation: float 3s ease-in-out infinite; 
+  }
+  
+  .app__music-button_circle {
+    background-color: transparent; 
+    border: 3px solid var(--color-golden); 
+    border-radius: 50%;
+    width: 60px; 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    position: relative; 
+    opacity: 0; 
+    animation: appear 0.5s forwards; 
+    animation-delay: 2s;
+  }
+  
+  .app__music-button_circle:hover {
+    transform: scale(1.1); 
+  }
+  
+  .app__music-button_circle:active {
+    transform: scale(0.95); 
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-10px); 
+    }
+  }
+
+  
