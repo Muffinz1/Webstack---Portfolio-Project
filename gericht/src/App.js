@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Header , AboutUs, FindUs,Intro, SpecialMenu, Gallery,Chef,Laurels} from './container';
-import {  Loader,Navbar  } from './components';
+import {  Loader,Navbar,Band  } from './components';
 import LoginPopup from './components/LoginPopup/LoginPopup';
 import './App.css';
 
@@ -16,6 +16,7 @@ const App = () => {
             <div className='app'>
                 <Loader />  
                 <Navbar setShowLogin={setShowLogin} />
+                <Band/>
                 <div className='content'>
                     <Header />
                     <AboutUs />
