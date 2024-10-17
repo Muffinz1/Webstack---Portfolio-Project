@@ -6,6 +6,7 @@ import Chef from './Chef/Chef';
 import Intro from './Intro/Intro';
 import Gallery from './Gallery/Gallery';
 import FindUs from './Findus/FindUs';
+import Footer from './Footer/Footer'
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   Intro,
   Gallery,
   FindUs,
+  Footer
 };
