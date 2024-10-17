@@ -6,6 +6,7 @@ import MenuItem from './Menuitem/MenuItem';
 import Band from './Band/Band'
 import Newsletter from './NewsLetter/Newsletter';
 import FooterOverlay from './FooterOverlay/FooterOverlay';
+import ClassicWatch from './ClassicWatch/ClassicWatch'
 
 export {
   SubHeading,
@@ -16,4 +17,5 @@ export {
   Band,
   Newsletter,
   FooterOverlay,
+  ClassicWatch
 };
