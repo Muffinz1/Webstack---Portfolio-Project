@@ -1,36 +1,35 @@
-import React, { useState } from 'react';
-import { Header , AboutUs, FindUs,Intro, SpecialMenu, Gallery,Chef,Laurels, Footer} from './container';
-import {  Loader,Navbar,Band  } from './components';
+import React, { useState} from 'react';
+import { Header, AboutUs, FindUs, Intro, SpecialMenu, Gallery, Chef, Laurels, Footer } from './container';
+import { Loader, Navbar, Band, ClassicWatch } from './components';
 import LoginPopup from './components/LoginPopup/LoginPopup';
 import './App.css';
 
-
 const App = () => {
     const [showLogin, setShowLogin] = useState(false);
-    const [showReservations, setShowReservations] = useState(false);
-
+    const [setShowReservations] = useState(false);
 
     return (
-        <>
+        <div className="app">
             {showLogin && <LoginPopup setShowLogin={setShowLogin} setShowReservations={setShowReservations} />}
-            <div className='app'>
-                <Loader />  
-                <Navbar setShowLogin={setShowLogin} />
-                <Band/>
-                <div className='content'>
-                    <Header />
-                    <AboutUs />
-                    <SpecialMenu />
-                    <Chef />
-                    <Intro />
-                    <Laurels />
-                    <Gallery />
-                    <FindUs />
-                    <Footer/>
-                </div>
+
+            <Loader />
+            <Navbar setShowLogin={setShowLogin} />
+            <Band />
+            <ClassicWatch />
+            
+            <div className="content">
+                <Header />
+                <AboutUs />
+                <SpecialMenu />
+                <Chef />
+                <Intro />
+                <Laurels />
+                <Gallery />
+                <FindUs />
+                <Footer />
             </div>
-        </>
+        </div>
     );
 };
-export default App;
 
+export default App;
