@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Webstack---Portfolio-Project/static/css/main.a1215aaf.css",
+    "main.js": "/Webstack---Portfolio-Project/static/js/main.ab57c677.js",
+    "static/media/meal.mp4": "/Webstack---Portfolio-Project/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
+    "static/media/gallery06.png": "/Webstack---Portfolio-Project/static/media/gallery06.3e026cf7b204b4b5f39e.png",
+    "static/media/gallery010.png": "/Webstack---Portfolio-Project/static/media/gallery010.4410e18e826f8076c936.png",
+    "static/media/gallery07.png": "/Webstack---Portfolio-Project/static/media/gallery07.198840a60fdc2b249238.png",
+    "static/media/gallery02.png": "/Webstack---Portfolio-Project/static/media/gallery02.7530b77164b2f1481ee1.png",
+    "static/media/music.mp3": "/Webstack---Portfolio-Project/static/media/music.8f08bfe1e45401c4b962.mp3",
+    "static/media/bg.png": "/Webstack---Portfolio-Project/static/media/bg.3d421b1b5682e1b67deb.png",
+    "static/media/gallery03.png": "/Webstack---Portfolio-Project/static/media/gallery03.389e96f52138b3e10f2b.png",
+    "static/media/gallery08.png": "/Webstack---Portfolio-Project/static/media/gallery08.57bb80e859ae68e4af7b.png",
+    "static/media/welcome.png": "/Webstack---Portfolio-Project/static/media/welcome.d724eb984456d9c97470.png",
+    "static/media/findus.png": "/Webstack---Portfolio-Project/static/media/findus.585c393ccd3671513743.png",
+    "static/media/laurels.png": "/Webstack---Portfolio-Project/static/media/laurels.e760828692795d4aafd7.png",
+    "static/media/chef.png": "/Webstack---Portfolio-Project/static/media/chef.02d6c5b61bfdc70303b4.png",
+    "static/media/menu.png": "/Webstack---Portfolio-Project/static/media/menu.ec223d0a74b1b50f5f38.png",
+    "static/media/gallery04.png": "/Webstack---Portfolio-Project/static/media/gallery04.c36a695f8a3b9d311106.png",
+    "static/media/gallery05.png": "/Webstack---Portfolio-Project/static/media/gallery05.27663bd9016b72ccd328.png",
+    "static/media/gallery01.png": "/Webstack---Portfolio-Project/static/media/gallery01.f2cbffe3049d6f91e0df.png",
+    "static/media/gallery09.png": "/Webstack---Portfolio-Project/static/media/gallery09.e123096de9da6928d63a.png",
+    "static/media/knife.png": "/Webstack---Portfolio-Project/static/media/knife.1121c0a5afb62acb31cb.png",
+    "static/media/overlaybg.png": "/Webstack---Portfolio-Project/static/media/overlaybg.165362eea72d1614ae28.png",
+    "static/media/G.png": "/Webstack---Portfolio-Project/static/media/G.b571eb82e589ec305ec9.png",
+    "static/media/logo.png": "/Webstack---Portfolio-Project/static/media/logo.0286194c03de0a90dac9.png",
+    "static/media/award02.png": "/Webstack---Portfolio-Project/static/media/award02.8bbdd51499739653b003.png",
+    "static/media/award05.png": "/Webstack---Portfolio-Project/static/media/award05.48a7f5206184009dcb29.png",
+    "static/media/award01.png": "/Webstack---Portfolio-Project/static/media/award01.361a4bc44b59b55abeda.png",
+    "static/media/award03.png": "/Webstack---Portfolio-Project/static/media/award03.3f7ee934c17dccbd5fc6.png",
+    "static/media/sign.png": "/Webstack---Portfolio-Project/static/media/sign.9bf0bd90ad4caa17991f.png",
+    "index.html": "/Webstack---Portfolio-Project/index.html",
+    "static/media/spoon.svg": "/Webstack---Portfolio-Project/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
+    "main.a1215aaf.css.map": "/Webstack---Portfolio-Project/static/css/main.a1215aaf.css.map",
+    "main.ab57c677.js.map": "/Webstack---Portfolio-Project/static/js/main.ab57c677.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1215aaf.css",
+    "static/js/main.ab57c677.js"
+  ]
+}
