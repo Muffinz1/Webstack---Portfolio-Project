@@ -1,0 +1,57 @@
+.app__digital-watch {
+    position: fixed;
+    left: 20px; 
+    bottom: 60px; 
+    z-index: 1000;
+    opacity: 0; 
+    transform: translateX(-100%); 
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+    
+}
+  
+.slide-in {
+    opacity: 1; 
+    transform: translateX(0); 
+}
+  
+.slide-out {
+    opacity: 0; 
+    transform: translateX(-100%); 
+}
+  
+.app__digital-watch_circle {
+    background-color: transparent; 
+    border: 3px solid var(--color-golden); 
+    border-radius: 10px; 
+    padding: 10px 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.2s; 
+}
+  
+.app__digital-watch_circle:hover {
+    transform: scale(1.05);
+}
+  
+.time {
+    font-family: var(--font-alt); 
+    font-size: 1.5rem; 
+    color: var(--color-golden); 
+    letter-spacing: 1px; 
+}
+  
+.app__digital-watch-toggle {
+    position: fixed;
+    left: 20px; 
+    bottom: 10px; 
+    cursor: pointer; 
+    z-index: 1000; 
+    background-color: transparent; 
+    border: none; 
+    outline: none; 
+    opacity: 0; 
+    animation: appear 0.5s forwards; 
+    animation-delay: 2s;
+}
