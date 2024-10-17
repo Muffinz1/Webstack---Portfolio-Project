@@ -1,7 +1,7 @@
 # Webstack---Portfolio-Project
 This Repositry Contains The Final project For the Front-end Specialization Track.
 
-## Content :Memo:
+## Content :memo:
 * gericht :
     Contains the directories for the react app
     * Config : Configure React app for deployment to GitHub Pages
