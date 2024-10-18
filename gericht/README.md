@@ -1,23 +1,37 @@
-# Getting Started with Create React App
-
+# Fine Dining
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+A link for the project exists at [Github Pages](https://muffinz1.github.io/Webstack---Portfolio-Project/)
 
-In the project directory, you can run:
+## Project Overview
+A modern fine-dining website showcasing an elegant restaurant experience with dynamic elements like menus, videos, and gallery
 
+## Features
+- Interactive components
+- Responsive design
+- Dynamic menu updates
+- Video integration
+- Seamless navigation
+- Login
+- Wide Gallery
+- Booking
+
+## Scripts
+
+```
+<--Installation-->
+git clone https://github.com/Muffinz1/WEBSTACK--PORTFOLIO-PROJECT
+cd project-directory
+npm install
+npm start
+```
+In the project directory, you can run clone it and operate it locally by
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The page will reload when you make changes.
 
 ### `npm run build`
 
@@ -27,44 +41,81 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+More about building and deployment check [gh-pages-for-react-app](https://github.com/gitname/react-gh-pages)
 
-### `npm run eject`
+## Directories
+This repo is a life figure for a website [Figma Design](https://www.figma.com/design/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?node-id=0-1&node-type=canvas) credits to [UI8](https://ui8.net/iqonicdesign/products/gericht-restaurant-website-ui-in-figma)
+* Config : Directory that has the required scripts for deployment
+* Public : Directory that has the required html file for name and favicon
+* Scripts : Directory that has the build.js required for deployment process
+* Src : Main Directory for the react app
+## Src Directory
+* [Assets](https://github.com/Muffinz1/Webstack---Portfolio-Project/tree/main/gericht/src/assets) : Directory that has all the required pictures , videos And music for maintaining the project appearance.
+* [Components](https://github.com/Muffinz1/Webstack---Portfolio-Project/tree/main/gericht/src/components) : Directory which has some of the most used components , commonly repeated or utilized in other containers
+such as :
+    - Band : Component for music
+    - Booking : Component for register
+    - watch :  Component for displaying time dynamically
+    - FooterOverlay : for hanging the newsletter
+    - Loader :  Component for a fancy loading display of the logo
+    - Login :  Component for logIn or signUp
+    - MenuItem : Component for retrieving prices and subtitles dynamically for the menu
+    - NavBar :  Component that has the navigation protocol of the site
+    - Subheading : Component used multiple times for subtext styling in a dynamic way using title as an input
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+all this components are exported with an index.js file so they can be utilized.
+* [Constants](https://github.com/Muffinz1/Webstack---Portfolio-Project/tree/main/gericht/src/constants)
+    - data for menu and prices
+    - images exported with a better naming
+    - all the data required are exported to be utilized in the app to ensure simplicity
+* [Container](https://github.com/Muffinz1/Webstack---Portfolio-Project/tree/main/gericht/src/container)
+    - AboutUs: Container for the about us history of the diner
+    - Chef: Container for chef word
+    - FindUs: Container for address and number
+    - Footer: Container for the site footer
+    - Gallery : Container for displaying the pictures in a seemless view
+    - Header :  main hero section
+    - Intro : video for dining area
+    - Laurels : rewards and tags section
+    - Menu : Special Drinks and meals container
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> [!IMPORTANT]
+> before starting the website make sure to npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- dependancies are located within [package.json](https://github.com/Muffinz1/Webstack---Portfolio-Project/blob/main/gericht/package.json)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tech Stack
+- React
+- CSS
+- JavaScript
+- Figma 
+- FreePik
 
-## Learn More
+## MIT License
+Copyright (c) 2024 Gericht
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and /or sell copies of the Software, subject to the following conditions:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Acknowledgments
+The following resources served as valuable references for learning, design inspiration, and development guidance:
+- [w3schools](https://www.w3schools.com/) for documentation and coding examples
+- [Holberton](https://www.holbertonschool.com/programs) and [ALX Africa](https://www.alxafrica.com/) for programming knowledge
+- [FreeCodeCamp](https://www.freecodecamp.org/) and [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science) for online learning
+- [JsMastery](https://www.jsmastery.pro/ultimate-next-course) and [GreatStack](https://www.youtube.com/@GreatStackDev) for development insights
+- [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) for general coding inspiration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Attribution:
 
-### Making a Progressive Web App
+The original design is based on a Figma file from the UI8 website.
+Additional improvements, new components, and code modifications were made beyond the tutorial and original design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Author
+Best regards , Muffinz1
